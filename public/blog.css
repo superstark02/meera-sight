@@ -1,0 +1,14 @@
+.card{
+    width: 1000px;
+    display: flex;
+    height: 400px;
+    border: solid 1px grey;
+    margin-top: 10px;
+}
+.part{
+    width: 500px;
+    height: 400px;
+}
+.footer{
+    margin: 40px 0px;
+}
