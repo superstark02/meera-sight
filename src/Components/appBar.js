@@ -6,7 +6,7 @@ import '../CSS/AppBar/AppBar.css'
 const buttons = [
   {
     name: "Home",
-    link: "/home"
+    link: "/"
   },
   {
     name: "About Us",
