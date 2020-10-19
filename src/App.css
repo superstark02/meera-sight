@@ -30,6 +30,7 @@ button{
   cursor: pointer;
   outline: none;
   margin: 0px;
+  cursor: pointer;
 }
 
 .secondary-button{
@@ -42,6 +43,8 @@ button{
   border: none;
   font-weight: 600;
   font-size: 15px;
+  outline: none;
+  cursor: pointer;
 }
 .secondary-button:hover{
   color: white;
@@ -97,4 +100,14 @@ button:hover{
 a a:active a:visited a:link{
   text-decoration: none;
   text-emphasis: none;
+}
+
+.input{
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px #6c2368;
+  margin: 10px;
+  outline: none;
+  padding: 10px;
+  color: #6c2368;
 }

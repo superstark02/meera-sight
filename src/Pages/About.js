@@ -8,11 +8,11 @@ const buttons = [
     },
     {
         name: "Our Mission, Vision and Values",
-        link: "/about-us/overview"
+        link: "/about-us/vision"
     },
     {
         name: "Know Your Doctor",
-        link: "/about-us/overview"
+        link: "/about-us/vision"
     },
     {
         name: "Our Team",
