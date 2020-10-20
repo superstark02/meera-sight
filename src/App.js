@@ -4,13 +4,16 @@ import './App.css';
 import AppBar from './Components/appBar';
 import Footer from './Components/Footer';
 import About from './Pages/About';
+import Doctor from './Pages/About/Doctor';
 import Overview from './Pages/About/Overview';
+import Team from './Pages/About/Team';
 import Vision from './Pages/About/Vision';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Events from './Pages/Events';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
+import Founders from './Pages/About/Founders';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route exact path="/contact-us" component={Contact} />
           <Route exact path="/about-us/overview" component={Overview} />
           <Route exact path="/about-us/vision" component={Vision} />
+          <Route exact path="/about-us/doctor" component={Doctor} />
+          <Route exact path="/about-us/team" component={Team} />
+          <Route exact path="/about-us/founders" component={Founders} />
           <Route exact path="/" component={Home} />
         </Switch>
       </Router>

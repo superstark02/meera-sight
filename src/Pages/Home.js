@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import c1 from '../Images/Home/c-1.webp'
 import '../CSS/Pages/Home.css'
+import InstagramEmbed from 'react-instagram-embed';
 
 export class Home extends Component {
     render() {
@@ -27,11 +28,11 @@ export class Home extends Component {
                     Services
                 </div>
                 <div className="services-div" >
-                    <div style={{fontSize:"25px"}} >
+                    <div style={{ fontSize: "25px" }} >
                         Opening Hours
                     </div>
-                    
-                    <div style={{fontSize:"20px"}} >
+
+                    <div style={{ fontSize: "20px" }} >
                         Come Visit
                     </div>
 
@@ -44,6 +45,14 @@ export class Home extends Component {
                 <div className="services-head" >
                     Testimonials
                 </div>
+                <InstagramEmbed
+                    url='https://instagr.am/p/Zw9o4/'
+                    maxWidth={320}
+                    hideCaption={true}
+                    containerTagName='div'
+                    protocol=''
+                    injectScript
+                />
             </div>
         )
     }

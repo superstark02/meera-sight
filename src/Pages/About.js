@@ -12,15 +12,15 @@ const buttons = [
     },
     {
         name: "Know Your Doctor",
-        link: "/about-us/vision"
+        link: "/about-us/doctor"
     },
     {
         name: "Our Team",
-        link: "/about-us/overview"
+        link: "/about-us/team"
     },
     {
         name: "From Founder's Desk",
-        link: "/about-us/overview"
+        link: "/about-us/founders"
     },
 ]
 

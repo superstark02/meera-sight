@@ -42,7 +42,7 @@ export class Contact extends Component {
                         <div>
                             <input style={{width:"100%",height:"100px"}} className="input" placeholder="Type your message here..." />
                         </div>
-                        <div>
+                        <div className="wrap" style={{margin:"20px 0px"}} >
                             <input style={{width:"100%",padding:"10px 0px"}} className="secondary-button" value="SUBMIT" type="submit" />
                         </div>
                     </form>

@@ -31,7 +31,7 @@ export class Events extends Component {
                                         {item.date}
                                     </div>
                                     <div className="blog-heading" style={{ color: "#6c2368" }} >
-                                        {item.title}
+                                        <u><i>{item.title}</i></u>
                                     </div>
                                     <div >
                                         {item.desc}
