@@ -14,6 +14,7 @@ import Events from './Pages/Events';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
 import Founders from './Pages/About/Founders';
+import ServicesDetails from './Pages/Services/ServicesDetails';
 
 function App() {
   return (
@@ -22,15 +23,20 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/about-us" component={About} />
+
           <Route exact path="/services" component={Services} />
+          <Route exact path="/services/:id" component={ServicesDetails} />
+
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact-us" component={Contact} />
+
           <Route exact path="/about-us/overview" component={Overview} />
           <Route exact path="/about-us/vision" component={Vision} />
           <Route exact path="/about-us/doctor" component={Doctor} />
           <Route exact path="/about-us/team" component={Team} />
           <Route exact path="/about-us/founders" component={Founders} />
+
           <Route exact path="/" component={Home} />
         </Switch>
       </Router>

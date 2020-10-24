@@ -1,6 +1,6 @@
 .blog-item{
     width: 1000px;
-    border: solid grey 1px;
+    border: solid rgba(116, 104, 104, 0.308) 1px;
     margin: 20px 0px;
     display: flex;
 }

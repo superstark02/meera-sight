@@ -14,7 +14,7 @@ export class Events extends Component {
     render() {
         return (
             <div>
-                <div className="wrap" style={{ color: "#6c2368", fontSize: "50px" }} >
+                <div className="wrap" style={{ color: "#6c2368", fontSize: "50px", textShadow: "0px 5px 5px grey"  }} >
                     <u>
                         Events
                     </u>

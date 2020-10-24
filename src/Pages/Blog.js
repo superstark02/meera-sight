@@ -7,8 +7,10 @@ const blogs = [
     {
         title: "Refractive Services",
         img: blog1,
-        link: "/"
-    }
+        link: "/",
+        des:"The process of vision begins when light rays that reflect off objects and travel through the eye's optical system are refracted and focus...",
+        views:"54 views"
+    },
 ]
 
 export class Blog extends Component {
@@ -26,6 +28,9 @@ export class Blog extends Component {
                                     <div style={{ padding: "20px" }} >
                                         <div className="blog-heading" >
                                             {item.title}
+                                        </div>
+                                        <div style={{margin:"20px 0px"}} >
+                                            {item.des}
                                         </div>
                                     </div>
                                 </div>
