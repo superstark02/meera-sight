@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import drsonia from "../../Images/About/drsonia.webp"
+import asm from "../../Images/About/asm.webp"
+import as from "../../Images/About/as.webp"
 
 export class Founders extends Component {
     render() {
@@ -14,6 +17,9 @@ export class Founders extends Component {
 
                 <div style={{ display: "flex", justifyContent: "space-between" }} >
                     <div>
+                        <div className="wrap" >
+                            <img alt="i" src={as} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                        </div>
                         <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey" }}  >
                             Capt. Amit Sharma
                         </div>
@@ -26,6 +32,9 @@ export class Founders extends Component {
                     </div>
                     <div style={{ display: "flex" }} >
                         <div style={{ margin: "0px 15px" }} >
+                            <div className="wrap" >
+                                <img alt="i" src={asm} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                            </div>
                             <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey", textAlign: "center" }}  >
                                 Mother<br />
                                 Lt. Smt. Meera Sharma
@@ -39,6 +48,9 @@ export class Founders extends Component {
                         </div>
 
                         <div>
+                            <div className="wrap" >
+                                <img alt="i" src={as} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                            </div>
                             <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey", textAlign: "center" }}  >
                                 Father<br />
                                 Lt. Shri H. C. Sharma
@@ -66,6 +78,9 @@ export class Founders extends Component {
 
                 <div style={{ display: "flex", justifyContent: "space-between" }} >
                     <div>
+                        <div className="wrap" >
+                            <img alt="i" src={drsonia} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                        </div>
                         <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey" }}  >
                             Dr. Sonia Sharma
                         </div>
@@ -75,6 +90,9 @@ export class Founders extends Component {
                     </div>
                     <div style={{ display: "flex" }} >
                         <div style={{ margin: "0px 15px" }} >
+                            <div className="wrap" >
+                                <img alt="i" src={as} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                            </div>
                             <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey", textAlign: "center" }}  >
                                 Mother<br />
                                 Mrs. Sharda Gahlot
@@ -85,12 +103,15 @@ export class Founders extends Component {
                         </div>
 
                         <div>
+                            <div className="wrap" >
+                                <img alt="i" src={as} style={{ width: "60%", margin: "20px", border: "2px solid #6C2368", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
+                            </div>
                             <div className="wrap" style={{ color: "#6c2368", fontSize: "25px", textShadow: "0px 5px 5px grey", textAlign: "center" }}  >
                                 Father<br />
                                 Shri V. P. Gahlot
                             </div>
-                            <div className="wrap" style={{ color: "#6c2368", fontSize: "15px", marginTop: "10px", textAlign:"center" }}  >
-                                (Superintending Geologist, Deptt. of<br/> Mines and Geology, Rajasthan)
+                            <div className="wrap" style={{ color: "#6c2368", fontSize: "15px", marginTop: "10px", textAlign: "center" }}  >
+                                (Superintending Geologist, Deptt. of<br /> Mines and Geology, Rajasthan)
                             </div>
                         </div>
                     </div>

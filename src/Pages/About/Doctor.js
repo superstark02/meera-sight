@@ -1,14 +1,34 @@
 import React, { Component } from 'react'
+import drsonia from "../../Images/About/drsonia.webp"
+import ag from "../../Images/About/ag.webp"
 
 export class Doctor extends Component {
     render() {
         return (
-            <div style={{fontSize:"17px", color:"#6c2368", width:"1000px"}} >
-                <div className="wrap" style={{ color: "#6c2368", fontSize: "50px", textShadow: "0px 5px 5px grey" }} >
-                    <u>
-                        Dr. Sonia
-                    </u>
+            <div style={{ fontSize: "17px", color: "#6c2368", width: "1000px" }} >
+                <div className="wrap" style={{ color: "#6c2368", fontSize: "20px", textShadow: "0px 5px 5px grey", justifyContent:'space-between' }} >
+                    <div>
+                        <div style={{ letterSpacing: "3px", fontSize: "50px" }} >
+                            Dr. Sonia Sharma
+                        </div>
+                        <div>
+                            MBBS, MS (OPHTHALMOLOGY)
+                        </div>
+                        <div>
+                            FSCEH (MICS)
+                        </div>
+                        <div>
+                            FSCEH (CORNEA & REFRACTIVE SURGERY)
+                        </div>
+                        <div>
+                            Cornea and Cataract specialist
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="i" src={drsonia} style={{ width: "60%", margin: "20px", border:"2px solid #6C2368", boxShadow:"0px 10px 10px rgba(0,0,0,0.5)" }} />
+                    </div>
                 </div>
+
                 <p class="font_8">Dr. Sonia Sharma&nbsp;has done her&nbsp;MBBS&nbsp;from well known&nbsp;Lady Harding Medical College, New Delhi&nbsp;and her post graduation in Ophthalmology&nbsp;(MS Ophthalmology)&nbsp;from&nbsp;University College of Medical Sciences and GTB hospital, New Delhi.</p>
                 <p class="font_8"><span class="wixGuard"></span></p>
                 <p class="font_8">Continuing further on her specialization she did her&nbsp;Fellowship in Cataract and minimally invasive cataract surgery (MICS)&nbsp;followed by a&nbsp;Fellowship in Cornea and Refractive Surgery&nbsp;from prestigious&nbsp;Dr. Shroff&rsquo;s Charity Eye Hospital, Daryaganj, New Delhi.</p>
@@ -29,10 +49,18 @@ export class Doctor extends Component {
                 <p class="font_8"><span class="wixGuard"></span></p>
                 <p class="font_8">6. Eye infections and allergies.</p>
 
-                <div className="wrap" style={{ color: "#6c2368", fontSize: "50px", textShadow: "0px 5px 5px grey" }} >
-                    <u>
-                        Dr. Anshuman Gahlot
-                    </u>
+                <div className="wrap" style={{ color: "#6c2368", fontSize: "20px", textShadow: "0px 5px 5px grey", justifyContent:'space-between' }} >
+                    <div>
+                        <div style={{ letterSpacing: "3px", fontSize: "50px" }} >
+                            Dr. Anshuman Gahlot
+                        </div>
+                        <div>
+                            MBBS, MS (OPHTHALMOLOGY), FVRS
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="i" src={ag} style={{ width: "60%", margin: "20px", border:"2px solid #6C2368", boxShadow:"0px 10px 10px rgba(0,0,0,0.5)" }} />
+                    </div>
                 </div>
 
                 <section id="comp-k88f964f" class="strc1" data-responsive="true" data-col-margin="0" data-row-margin="0">
