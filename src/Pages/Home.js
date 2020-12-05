@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
-import c1 from '../Images/Home/c-1.webp'
 import '../CSS/Pages/Home.css'
 import InstagramEmbed from 'react-instagram-embed';
+import Carousel from '../Components/Carousel';
+import ServicesCarousel from '../Components/ServicesCarousel';
+import TestimonialCarousel from '../Components/TestimonialCarousel';
 
 export class Home extends Component {
     render() {
         return (
             <div>
                 <div style={{ display: "flex", justifyContent: "space-between", margin: "5px 0px" }} >
-                    <div>
-                        <img alt="carousel" src={c1} width="500px" />
+                    <div style={{width:"100%"}} >
+                        <Carousel/>
                     </div>
                     <div className="wrap" style={{ textAlign: "center" }} >
                         <div>
@@ -27,6 +29,7 @@ export class Home extends Component {
                 <div className="services-head" >
                     Services
                 </div>
+                <ServicesCarousel />
                 <div className="services-div" >
                     <div style={{ fontSize: "25px" }} >
                         Opening Hours
@@ -45,6 +48,7 @@ export class Home extends Component {
                 <div className="services-head" >
                     Testimonials
                 </div>
+                <TestimonialCarousel />
                 <InstagramEmbed
                     url='https://instagr.am/p/Zw9o4/'
                     maxWidth={320}

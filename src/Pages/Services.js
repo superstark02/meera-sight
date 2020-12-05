@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import {services} from "../Database/Services"
+import { services } from "../Database/Services"
 
 export class Services extends Component {
     render() {
@@ -15,7 +15,7 @@ export class Services extends Component {
                     {
                         services.map(item => {
                             return (
-                                <Link to={"/services"+item.link} >
+                                <Link to={"/services" + item.link} >
                                     <div style={{ margin: "10px" }} >
                                         <div>
                                             <a href={item.link} >
@@ -23,7 +23,9 @@ export class Services extends Component {
                                             </a>
                                         </div>
                                         <div className="wrap" style={{ padding: "10px" }} >
-                                            <button className="secondary-button" >Book Service</button>
+                                            <Link to="/book-service" >
+                                                <button className="secondary-button" >Book Service</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </Link>

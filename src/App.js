@@ -15,6 +15,7 @@ import Home from './Pages/Home';
 import Services from './Pages/Services';
 import Founders from './Pages/About/Founders';
 import ServicesDetails from './Pages/Services/ServicesDetails';
+import BookService from './Pages/Services/BookService';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
           <Route exact path="/services" component={Services} />
           <Route exact path="/services/:id" component={ServicesDetails} />
+          <Route exact path="/book-service" component={BookService} />
 
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/events" component={Events} />
