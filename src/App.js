@@ -16,6 +16,7 @@ import Services from './Pages/Services';
 import Founders from './Pages/About/Founders';
 import ServicesDetails from './Pages/Services/ServicesDetails';
 import BookService from './Pages/Services/BookService';
+import BlogDisplay from './Pages/Blogs/BlogDisplay';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/book-service" component={BookService} />
 
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/blog/:id" component={BlogDisplay} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact-us" component={Contact} />
 

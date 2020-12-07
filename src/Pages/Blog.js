@@ -1,17 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import "../CSS/Pages/Blog.css"
-import blog1 from '../Images/Blog/blog1.jpg'
+import {blogs} from "../Database/Blogs"
 
-const blogs = [
-    {
-        title: "Refractive Services",
-        img: blog1,
-        link: "/",
-        des:"The process of vision begins when light rays that reflect off objects and travel through the eye's optical system are refracted and focus...",
-        views:"54 views"
-    },
-]
 
 export class Blog extends Component {
     render() {
@@ -22,8 +13,8 @@ export class Blog extends Component {
                         return (
                             <Link>
                                 <div className="blog-item" >
-                                    <div>
-                                        <img alt="blog-img" src={item.img} />
+                                    <div style={{width:"100%"}} >
+                                        <img alt="blog-img" width="100%" src={item.img} />
                                     </div>
                                     <div style={{ padding: "20px" }} >
                                         <div className="blog-heading" >

@@ -113,7 +113,7 @@ export class BookService extends Component {
                                     <div>
                                         {
                                             afternoon.map(item => {
-                                                if (this.state.date.getDay() != 0) {
+                                                if (this.state.date.getDay() !== 0) {
                                                     return (
                                                         <div className="wrap" style={{padding:"10px", border:"1px solid", margin:"10px"}} >
                                                             {item}
@@ -131,7 +131,7 @@ export class BookService extends Component {
                                     <div>
                                         {
                                             evening.map(item => {
-                                                if (this.state.date.getDay() != 0) {
+                                                if (this.state.date.getDay() !== 0) {
                                                     return (
                                                         <div className="wrap" style={{padding:"10px", border:"1px solid", margin:"10px", cursor:"pointer"}} >
                                                             {item}
