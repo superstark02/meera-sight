@@ -111,3 +111,9 @@ a a:active a:visited a:link{
   padding: 10px;
   color: #6c2368;
 }
+
+.wrap1{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}

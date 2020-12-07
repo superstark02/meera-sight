@@ -4,6 +4,7 @@ import blog2 from '../Images/Blog/blog2.jpg'
 import blog3 from '../Images/Blog/blog3.jpg'
 import blog4 from '../Images/Blog/blog4.jpg'
 import blog5 from '../Images/Blog/blog5.jpg'
+import Blog1 from '../Pages/Blogs/Blog1'
 //import blog6 from '../Images/Blog/blog6.jpg'
 
 export const blogs = [
@@ -13,7 +14,7 @@ export const blogs = [
         link: "/0",
         des: "The process of vision begins when light rays that reflect off objects and travel through the eye's optical system are refracted and focus...",
         views: "54 views",
-        content: ""
+        content: <Blog1/>
     },
     {
         title: "Cataract Services",
