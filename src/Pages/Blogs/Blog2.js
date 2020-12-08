@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Blog2 extends Component {
     render() {
         return (
-            <div>
+            <div  style={{fontSize:"20px"}}  >
                 <div className="wrap" >
                     <img width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_920341d667a94ea1926f267159991c5b~mv2.jpg/v1/fill/w_925,h_657,al_c,q_90,usm_0.66_1.00_0.01/0f32fb_920341d667a94ea1926f267159991c5b~mv2.webp" />
                 </div>
@@ -12,7 +12,7 @@ export class Blog2 extends Component {
                     What is Cataract?
                 </h3>
                 <p>
-                    Cataract is the clouding of the eye's natural lens. It is the most common cause of
+                    Cataract is the <b> clouding of the eye's natural lens.</b> It is the most common cause of
                     vision loss in people over age 40 and is also the principal cause of blindness in the world.
                 </p>
 
@@ -22,19 +22,19 @@ export class Blog2 extends Component {
 
                 <p>
                     At first, a cataract has little effect on your vision. You may notice that
-                    your vision is hazy or blurred a little, like looking through a cloudy piece of
-                    glass or a waterfall. Other important clues are:
+                    your vision is <b> hazy or blurred a little, like looking through a cloudy piece of
+                    glass or a waterfall.</b> Other important clues are:
                     <li>
-                        Light from the sun or a lamp may seem too bright or glaring.
+                        Light from the sun or a lamp may seem too bright or <b> glaring.</b>
                     </li>
                     <li>
-                        Difficulty in night driving, the oncoming headlights cause more glare than before.
+                        <b>Difficulty in night driving,</b> the oncoming headlights cause more glare than before.
                     </li>
                     <li>
-                        Decrease in brightness of colours.
+                        <b>Decrease in brightness of colours.</b>
                     </li>
                     <li>
-                        Floaters or Black spots in front of eye
+                        Floaters or <b> Black spots</b> in front of eye
                     </li>
                     <li>
                         Coloured halo around bright light.
@@ -58,20 +58,20 @@ export class Blog2 extends Component {
                     precise way that keeps the lens clear and let’s light pass through it.
                 </p>
                 <p>
-                    But as we age, some of the protein may clump together and start to cloud a small
-                    area of the lens. This is a cataract, and over time, it may grow larger and cloud more
+                    <b>But as we age, some of the protein may clump together and start to cloud a small
+                    area of the lens. This is a cataract,</b> and over time, it may grow larger and cloud more
                     of the lens, making it harder to see.
                 </p>
                 <p>
-                    Besides advancing age, cataract risk factors include:
+                    Besides <b>advancing age,</b> cataract risk factors include:
                     <li>
-                        Ultraviolet radiation
+                        <b>Ultraviolet radiation</b>
                     </li>
                     <li>
-                        Diabetes and Hypertension
+                        <b>Diabetes and Hypertension</b>
                     </li>
                     <li>
-                        Obesity
+                        <b>Obesity</b>
                     </li>
                     <li>
                         Smoking

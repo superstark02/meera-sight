@@ -11,7 +11,7 @@ export class Blog extends Component {
                 {
                     blogs.map(item => {
                         return (
-                            <Link>
+                            <Link to={"/blog"+item.link} >
                                 <div className="blog-item" >
                                     <div style={{width:"100%"}} >
                                         <img alt="blog-img" width="100%" src={item.img} />

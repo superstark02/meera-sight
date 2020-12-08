@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Blog5 extends Component {
     render() {
         return (
-            <div>
+            <div style={{fontSize:"20px"}}  >
                 <p>
                     Poor vision isn’t the only indicator of eye disease. In fact, it’s usually the last
                     thing that happens. And, once you start to lose vision, you often can’t get it back.

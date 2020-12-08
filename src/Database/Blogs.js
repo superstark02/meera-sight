@@ -24,7 +24,7 @@ export const blogs = [
     {
         title: "Cataract Services",
         img: blog2,
-        link: "/0",
+        link: "/1",
         des: "What is Cataract? Cataract is the clouding of the eye's natural lens. It is the most common cause of vision loss in people over age 40 an... ",
         views: "54 views",
         content:<Blog2/>
@@ -32,7 +32,7 @@ export const blogs = [
     {
         title: "Why Regular and Comprehensive Eye Checkups required?",
         img: blog3,
-        link: "/0",
+        link: "/2",
         des: "The eyes are among the most sensitive organs of the body and are considered to be one of the most important senses. Despite this, taking ... ",
         views: "54 views",
         content: <Blog3/>
@@ -40,7 +40,7 @@ export const blogs = [
     {
         title: "Eye Myths vs Facts",
         img: blog4,
-        link: "/0",
+        link: "/3",
         des: "Everyone’s heard them one time or another: don’t sit too close to the TV, it will hurt your eyes or don’t stare at the sun, you’ll damage... ",
         views: "54 views",
         content: <Blog4/>
@@ -48,7 +48,7 @@ export const blogs = [
     {
         title: "Even People With Great Vision Need Eye Exams",
         img: blog5,
-        link: "/0",
+        link: "/4",
         des: "Poor vision isn’t the only indicator of eye disease. In fact, it’s usually the last thing that happens. And, once you start to lose visio... ",
         views: "54 views",
         content: <Blog5/>
@@ -56,7 +56,7 @@ export const blogs = [
     {
         title: "Are 3-D Movies Bad for Your Eyes?",
         img: blog1,
-        link: "/0",
+        link: "/5",
         des: "3-D movies have come a long way since the days of 1950’s classics like the House of Wax and the Creature from the Black Lagoon. With bloc... ",
         views: "54 views",
         content:<Blog6/>

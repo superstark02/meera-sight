@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Blog4 extends Component {
     render() {
         return (
-            <div>
+            <div style={{fontSize:"20px"}}  >
                 <p>
                     Everyone’s heard them one time or another: don’t sit too close to the TV,
                     it will hurt your eyes or don’t stare at the sun, you’ll damage your vision!

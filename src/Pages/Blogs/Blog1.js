@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog1 extends Component {
     render() {
         return (
-            <div>
+            <div style={{fontSize:"20px"}} >
                 <div className="wrap1" >
                     <div>
                         The process of vision begins when light rays that reflect off objects

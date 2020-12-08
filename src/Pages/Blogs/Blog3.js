@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Blog3 extends Component {
     render() {
         return (
-            <div>
+            <div style={{fontSize:"20px"}}  >
                 <p>
                     The eyes are among the most sensitive organs of the body and are considered
                     to be one of the most important senses. Despite this, taking good care of our

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Blog6 extends Component {
     render() {
         return (
-            <div>
+            <div style={{fontSize:"20px"}}  >
                 <p>
                     3-D movies have come a long way since the days of 1950’s classics like the House
                     of Wax and the Creature from the Black Lagoon. With blockbuster 3-D movies like Avatar

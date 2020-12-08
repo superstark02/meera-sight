@@ -17,11 +17,15 @@ import Founders from './Pages/About/Founders';
 import ServicesDetails from './Pages/Services/ServicesDetails';
 import BookService from './Pages/Services/BookService';
 import BlogDisplay from './Pages/Blogs/BlogDisplay';
+import MappBar from './Components/MappBar';
 
 function App() {
   return (
     <div className="App">
       <AppBar />
+      <div className="mobile" >
+        <MappBar />
+      </div>
       <Router>
         <Switch>
           <Route exact path="/about-us" component={About} />
