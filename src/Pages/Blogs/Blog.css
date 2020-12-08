@@ -1,1 +1,16 @@
+.dibba{
+    border: 1px grey solid;
+    padding: 90px;
+    margin: 80px 0px;
+    max-width: 900px;
+}
 
+@media only screen and (max-width: 1024px) {
+    .dibba{
+        padding: 5px;
+        max-width: 95vw;
+    }
+    .img-size{
+        width: 100%;
+    }
+}

@@ -125,4 +125,7 @@ a a:active a:visited a:link{
   .desktop{
     display: none;
   }
+  .wrap1{
+    flex-direction: column;
+  }
 }

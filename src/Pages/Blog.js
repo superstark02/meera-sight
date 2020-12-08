@@ -14,7 +14,7 @@ export class Blog extends Component {
                             <Link to={"/blog"+item.link} >
                                 <div className="blog-item" >
                                     <div style={{width:"100%"}} >
-                                        <img alt="blog-img" width="100%" src={item.img} />
+                                        <img alt="blog-img" className="blog-img" src={item.img} />
                                     </div>
                                     <div style={{ padding: "20px" }} >
                                         <div className="blog-heading" >

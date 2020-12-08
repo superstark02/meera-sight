@@ -12,7 +12,7 @@ export class Blog1 extends Component {
                         into a point of sharp focus on the retina.
                     </div>
                     <div>
-                        <img alt="i" src="https://static.wixstatic.com/media/0f32fb_b41fb0af28af477baeedd6d93f37d405~mv2.jpg/v1/fill/w_450,h_253,al_c,lg_1,q_90/0f32fb_b41fb0af28af477baeedd6d93f37d405~mv2.webp" />
+                        <img className="img-size" alt="i" src="https://static.wixstatic.com/media/0f32fb_b41fb0af28af477baeedd6d93f37d405~mv2.jpg/v1/fill/w_450,h_253,al_c,lg_1,q_90/0f32fb_b41fb0af28af477baeedd6d93f37d405~mv2.webp" />
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ export class Blog1 extends Component {
                             </ul>
                         </p>
                     </div>
-                    <img alt="i" src="https://static.wixstatic.com/media/0f32fb_ec9687f73ed042db902b74577cae7c59~mv2.jpg/v1/fill/w_450,h_373,al_c,lg_1,q_90/0f32fb_ec9687f73ed042db902b74577cae7c59~mv2.webp" />
+                    <img alt="i" className="img-size"  src="https://static.wixstatic.com/media/0f32fb_ec9687f73ed042db902b74577cae7c59~mv2.jpg/v1/fill/w_450,h_373,al_c,lg_1,q_90/0f32fb_ec9687f73ed042db902b74577cae7c59~mv2.webp" />
                 </div>
 
                 <div className="wrap1" >
@@ -66,7 +66,7 @@ export class Blog1 extends Component {
                         </p>
                     </div>
                     <div>
-                        <img alt="i" src="https://static.wixstatic.com/media/0f32fb_dba293a51c48477799e30c5f03eb11a3~mv2.jpg/v1/fill/w_450,h_341,al_c,lg_1,q_90/0f32fb_dba293a51c48477799e30c5f03eb11a3~mv2.webp" />
+                        <img  className="img-size"  alt="i" src="https://static.wixstatic.com/media/0f32fb_dba293a51c48477799e30c5f03eb11a3~mv2.jpg/v1/fill/w_450,h_341,al_c,lg_1,q_90/0f32fb_dba293a51c48477799e30c5f03eb11a3~mv2.webp" />
                     </div>
                 </div>
 
@@ -89,13 +89,13 @@ export class Blog1 extends Component {
                         </p>
                     </div>
                     <div>
-                        <img alt="i" src="https://static.wixstatic.com/media/0f32fb_25875aae54f24441a707764129280b87~mv2.jpg/v1/fill/w_450,h_367,al_c,lg_1,q_90/0f32fb_25875aae54f24441a707764129280b87~mv2.webp" />
+                        <img className="img-size" src="https://static.wixstatic.com/media/0f32fb_25875aae54f24441a707764129280b87~mv2.jpg/v1/fill/w_450,h_367,al_c,lg_1,q_90/0f32fb_25875aae54f24441a707764129280b87~mv2.webp" />
                     </div>
                 </div>
 
                 <div className="wrap1" >
                     <div>
-                        <h4 id="viewer-5b3mo" ><strong>Presbyopia (aging of the lens in the eye). </strong></h4>
+                        <h4 ><strong>Presbyopia (aging of the lens in the eye). </strong></h4>
                         <p>
                             <ul>
                                 <li>
@@ -111,7 +111,7 @@ export class Blog1 extends Component {
                         </p>
                     </div>
                     <div>
-                        <img alt="i" src="https://static.wixstatic.com/media/0f32fb_163525012f1246baa0fdf2c63249a7a0~mv2.jpg/v1/fill/w_450,h_403,al_c,lg_1,q_90/0f32fb_163525012f1246baa0fdf2c63249a7a0~mv2.webp" />
+                        <img className="img-size" alt="i" src="https://static.wixstatic.com/media/0f32fb_163525012f1246baa0fdf2c63249a7a0~mv2.jpg/v1/fill/w_450,h_403,al_c,lg_1,q_90/0f32fb_163525012f1246baa0fdf2c63249a7a0~mv2.webp" />
                     </div>
                 </div>
 
@@ -147,9 +147,9 @@ export class Blog1 extends Component {
                     </li>
                 </ol>
 
-                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.jpg/v1/fill/w_700,h_234,al_c,lg_1,q_90/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.webp" />
-                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_098aa76bb714431799fe234f3fdfa509~mv2.jpg" />
-                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_d97b87753757485db034cdf2d6cc46c7~mv2.jpg" />
+                <img className="img-size" alt="i" src="https://static.wixstatic.com/media/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.jpg/v1/fill/w_700,h_234,al_c,lg_1,q_90/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.webp" />
+                <img className="img-size" src="https://static.wixstatic.com/media/0f32fb_098aa76bb714431799fe234f3fdfa509~mv2.jpg" />
+                <img className="img-size"  src="https://static.wixstatic.com/media/0f32fb_d97b87753757485db034cdf2d6cc46c7~mv2.jpg" />
 
                 <ul>
                     Refractive surgery might be a good option for you if you:

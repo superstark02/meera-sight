@@ -1,0 +1,19 @@
+.dibba2{
+    width: 50%;
+    text-align: center;
+}
+
+.dibba3{
+    background-color: #f4f5f6;
+    padding: 10px;
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px){
+    .dibba2{
+        width: 100%;
+    }
+    .dibba3{
+        flex-direction: column;
+    }
+}

@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import "../CSS/Pages/Contact.css"
+import "./Contact.css"
 
 export class Contact extends Component {
     render() {
         return (
-            <div style={{ backgroundColor: "#f4f5f6", padding: "10px", display: "flex" }} >
-                <div style={{ width: "50%", textAlign: "center" }} >
+            <div className="dibba3" >
+                <div className="dibba2" >
                     <div className="wrap" style={{ color: "#6c2368", fontSize: "40px", textAlign: "center", textShadow: "0px 5px 5px grey" }} >
                         <u>
                             Contact Us

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog3 extends Component {
     render() {
@@ -9,7 +10,7 @@ export class Blog3 extends Component {
                     to be one of the most important senses. Despite this, taking good care of our
                     eyes is often ignored, resulting in many people losing their sight and needing glasses.
                 </p>
-                <img width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_79bd79bbba674e1db8f2cf51ff50d088~mv2.jpg/v1/fill/w_672,h_378,al_c,lg_1,q_90/0f32fb_79bd79bbba674e1db8f2cf51ff50d088~mv2.webp" />
+                <img className="img-size"  width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_79bd79bbba674e1db8f2cf51ff50d088~mv2.jpg/v1/fill/w_672,h_378,al_c,lg_1,q_90/0f32fb_79bd79bbba674e1db8f2cf51ff50d088~mv2.webp" />
 
                 <p>
                     Unlike other parts of our bodies, our eyes don’t always tend to hurt very much

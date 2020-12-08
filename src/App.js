@@ -22,13 +22,13 @@ import MappBar from './Components/Mobile/MappBar';
 function App() {
   return (
     <div className="App">
-      <div className="desktop" >
-        <AppBar />
-      </div>
-      <div className="mobile" >
-        <MappBar />
-      </div>
       <Router>
+        <div className="desktop" >
+          <AppBar />
+        </div>
+        <div className="mobile" >
+          <MappBar />
+        </div>
         <Switch>
           <Route exact path="/about-us" component={About} />
 

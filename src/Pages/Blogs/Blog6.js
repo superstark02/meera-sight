@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog6 extends Component {
     render() {
@@ -10,7 +11,7 @@ export class Blog6 extends Component {
                     breaking records and the popularity of 3-D gaming, TV networks and TV sets on the rise,
                     it seems that three-dimensional viewing is here to stay, but is it good for your or your children’s eyes?
                 </p>
-                <img width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_15a463e202c04922a18ee7851d447fdd~mv2.png/v1/fill/w_772,h_578,al_c,lg_1,q_90/0f32fb_15a463e202c04922a18ee7851d447fdd~mv2.webp" />
+                <img className="img-size"  width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_15a463e202c04922a18ee7851d447fdd~mv2.png/v1/fill/w_772,h_578,al_c,lg_1,q_90/0f32fb_15a463e202c04922a18ee7851d447fdd~mv2.webp" />
 
                 <p>
                     <b>

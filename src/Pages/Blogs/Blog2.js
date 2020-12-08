@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog2 extends Component {
     render() {
         return (
             <div  style={{fontSize:"20px"}}  >
                 <div className="wrap" >
-                    <img width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_920341d667a94ea1926f267159991c5b~mv2.jpg/v1/fill/w_925,h_657,al_c,q_90,usm_0.66_1.00_0.01/0f32fb_920341d667a94ea1926f267159991c5b~mv2.webp" />
+                    <img className="img-size"  width="100%" alt="i" src="https://static.wixstatic.com/media/0f32fb_920341d667a94ea1926f267159991c5b~mv2.jpg/v1/fill/w_925,h_657,al_c,q_90,usm_0.66_1.00_0.01/0f32fb_920341d667a94ea1926f267159991c5b~mv2.webp" />
                 </div>
 
                 <h3>
@@ -126,7 +127,7 @@ export class Blog2 extends Component {
                         When symptoms begin to appear, we may be able to improve your vision for a while using new
                         glasses, strong bifocals, magnification, appropriate lighting or other visual aids.
                     </div>
-                    <img alt="i" src="https://static.wixstatic.com/media/0f32fb_6b9b56a1e0984617bb77803adfbc2838~mv2.jpg/v1/fill/w_307,h_280,al_c,lg_1,q_90/0f32fb_6b9b56a1e0984617bb77803adfbc2838~mv2.webp" />
+                    <img className="img-size"  alt="i" src="https://static.wixstatic.com/media/0f32fb_6b9b56a1e0984617bb77803adfbc2838~mv2.jpg/v1/fill/w_307,h_280,al_c,lg_1,q_90/0f32fb_6b9b56a1e0984617bb77803adfbc2838~mv2.webp" />
                 </p>
 
                 <p>
@@ -157,7 +158,7 @@ export class Blog2 extends Component {
                             </li>
                         </div>
                         <div>
-                            <img alt="i" src="https://static.wixstatic.com/media/0f32fb_b9bd55f6f1ff44cb83dfbb1390fc9854~mv2.jpg/v1/fill/w_450,h_319,al_c,lg_1,q_90/0f32fb_b9bd55f6f1ff44cb83dfbb1390fc9854~mv2.webp" />
+                            <img className="img-size"  alt="i" src="https://static.wixstatic.com/media/0f32fb_b9bd55f6f1ff44cb83dfbb1390fc9854~mv2.jpg/v1/fill/w_450,h_319,al_c,lg_1,q_90/0f32fb_b9bd55f6f1ff44cb83dfbb1390fc9854~mv2.webp" />
                         </div>
                     </div>
                 </p>

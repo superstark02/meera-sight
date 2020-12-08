@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog5 extends Component {
     render() {
@@ -14,7 +15,7 @@ export class Blog5 extends Component {
                     later on. And, if you’re a contact lens wearer, annual exams are mandatory.
                 </p>
 
-                <img alt="i" width="100%" src="https://static.wixstatic.com/media/0f32fb_13e0b2a94bbe4488850083a027bef269~mv2.gif" />
+                <img className="img-size"  alt="i" width="100%" src="https://static.wixstatic.com/media/0f32fb_13e0b2a94bbe4488850083a027bef269~mv2.gif" />
 
                 <p>
                     Here’s what you need to know about eye exams:

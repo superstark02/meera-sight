@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Blog.css"
 
 export class Blog4 extends Component {
     render() {
@@ -11,7 +12,7 @@ export class Blog4 extends Component {
                     Read on to learn the facts.
                 </p>
 
-                <img alt="i" width="100%" src="https://static.wixstatic.com/media/0f32fb_cc990e6faf5f4d42970d4478cf2bdeaa~mv2.jpg/v1/fill/w_368,h_269,al_c,lg_1,q_90/0f32fb_cc990e6faf5f4d42970d4478cf2bdeaa~mv2.webp" />
+                <img className="img-size"  alt="i" width="100%" src="https://static.wixstatic.com/media/0f32fb_cc990e6faf5f4d42970d4478cf2bdeaa~mv2.jpg/v1/fill/w_368,h_269,al_c,lg_1,q_90/0f32fb_cc990e6faf5f4d42970d4478cf2bdeaa~mv2.webp" />
 
                 <h3>
                     MYTH: Sitting too close to the TV will hurt your eyes.

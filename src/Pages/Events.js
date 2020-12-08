@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import blog1 from '../Images/Blog/blog1.jpg'
+import "./Blogs/Blog.css"
 
 const events = [
     {
@@ -24,7 +25,7 @@ export class Events extends Component {
                         return (
                             <div className="blog-item" >
                                 <div>
-                                    <img alt="blog-img" src={item.img} />
+                                    <img className="img-size" alt="blog-img" src={item.img} />
                                 </div>
                                 <div style={{ padding: "20px", color: "#6c2368" }} >
                                     <div style={{ marginBottom: "20px" }} >
