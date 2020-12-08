@@ -114,6 +114,66 @@ export class Blog1 extends Component {
                     </div>
                 </div>
 
+                <h4>
+                    How to detect refractive error?
+                </h4>
+                <p>
+                    A refractive error can be diagnosed by us during a routine eye examination.
+                    Testing usually consists of asking you to read a vision chart while testing an
+                    assortment of lenses to maximize your vision. This process can be augmented with
+                    help of an auto refractor. Special imaging or other testing is rarely necessary.
+                </p>
+                <h4>
+                    Treatment of Refractive Errors:
+                </h4>
+                <ol>
+                    <li>
+                        Spectacles or glasses
+                    </li>
+                    <li>
+                        Contact lenses
+                        <ul>
+                            <li>
+                                Refractive surgeries
+                            </li>
+                            <li>
+                                Laser Vision correction
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Refractive lens Exchange.
+                    </li>
+                </ol>
+
+                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.jpg/v1/fill/w_700,h_234,al_c,lg_1,q_90/0f32fb_1c5a4765d3784079934078e9cfaf2c7e~mv2.webp" />
+                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_098aa76bb714431799fe234f3fdfa509~mv2.jpg" />
+                <img alt="i" src="https://static.wixstatic.com/media/0f32fb_d97b87753757485db034cdf2d6cc46c7~mv2.jpg" />
+
+                <ul>
+                    Refractive surgery might be a good option for you if you:
+                    <li>
+                        Want to decrease your dependence on glasses or contact lenses;
+                    </li>
+                    <li>
+                        Are free of eye disease;
+                    </li>
+                    <li>
+                        Accept the inherent risks and potential side effects of the procedure;
+                    </li>
+                    <li>
+                        Understand that you could still need glasses or contacts after the procedure to achieve your best vision;
+                    </li>
+                    <li>
+                        Have an appropriate refractive error.
+                    </li>
+                </ul>
+                <p>
+                    There is no universally-accepted, best method for correcting refractive errors. 
+                    The best option for you should be decided after a thorough examination and discussion 
+                    about your lifestyle and your vision needs.
+                </p>
+
             </div>
         )
     }
