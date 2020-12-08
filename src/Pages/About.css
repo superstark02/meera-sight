@@ -1,0 +1,20 @@
+.button-container{
+    margin: 20px 0px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.cover{
+    width: 70%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .button-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cover{
+        width: 100vw;
+    }
+}

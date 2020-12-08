@@ -18,25 +18,49 @@ export class ServicesCarousel extends Component {
     render() {
         const settings = {
             arrowsBlock: false,
-            arrows:false,
+            arrows: false,
             autoplay: true,
             autoplaySpeed: 2000,
             slidesPerRow: 3
         };
+
+        const settingsm = {
+            arrowsBlock: false,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesPerRow: 1
+        };
         return (
             <div style={{ width: "100%" }} >
                 <span></span>
-                <Slider {...settings}>
-                    {
-                        data.map(item => {
-                            return (
-                                <div className="wrap" style={{ width: "100%", margin:"0px 5px" }} >
-                                    <img width="90%" src={item} alt="i" />
-                                </div>
-                            )
-                        })
-                    }
-                </Slider>
+                <div className="desktop" >
+                    <Slider {...settings}>
+                        {
+                            data.map(item => {
+                                return (
+                                    <div className="wrap" style={{ width: "100%", margin: "0px 5px" }} >
+                                        <img width="90%" src={item} alt="i" />
+                                    </div>
+                                )
+                            })
+                        }
+                    </Slider>
+                </div>
+
+                <div className="mobile" >
+                    <Slider {...settingsm}>
+                        {
+                            data.map(item => {
+                                return (
+                                    <div className="wrap" style={{ width: "100%", margin: "0px 5px" }} >
+                                        <img width="90%" src={item} alt="i" />
+                                    </div>
+                                )
+                            })
+                        }
+                    </Slider>
+                </div>
             </div>
         );
     }

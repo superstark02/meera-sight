@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Slider from 'infinite-react-carousel';
+import "./TestimonialCarousel.css"
 
 const data = [
     {
@@ -66,12 +67,12 @@ export class TestimonialCarousel extends Component {
                         data.map(item => {
                             return (
                                 <div className="wrap">
-                                    <div style={{ display: "flex", width: "1000px", padding: "20px" }} >
+                                    <div className="flex-wrap" >
                                         <div style={{ width: "200px" }} >
                                             <img src={item.img} alt="i" style={{ width: "200px", borderRadius: "50%", boxShadow: "0px 10px 10px rgba(0,0,0,0.5)" }} />
                                         </div>
                                         <div className="wrap" >
-                                            <div style={{ padding: "70px", color:"#62205F" }} >
+                                            <div style={{ color:"#62205F" }} className="text-wrapper" >
                                                 <div className="wrap"   >
                                                     <h3 style={{textShadow: "0px 10px 10px rgba(0,0,0,0.5)"}} >
                                                         {item.name}

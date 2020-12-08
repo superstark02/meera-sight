@@ -1,0 +1,9 @@
+.outer-div{
+    width: 1000px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .outer-div{
+        width: 100%;
+    }
+}

@@ -13,7 +13,7 @@ export class Home extends Component {
                     <div style={{width:"100%"}} >
                         <Carousel/>
                     </div>
-                    <div className="wrap" style={{ textAlign: "center" }} >
+                    <div className="wrap desktop" style={{ textAlign: "center" }} >
                         <div>
                             <div className="page-title" >
                                 Welcome To <br></br>

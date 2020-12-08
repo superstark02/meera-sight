@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { services } from "../Database/Services"
+import "./Services.css"
 
 export class Services extends Component {
     render() {
         return (
-            <div style={{ width: "1000px" }} >
+            <div className="outer-div" >
                 <div className="wrap" style={{ color: "#6c2368", fontSize: "50px" }} >
                     <u>
                         Our Services

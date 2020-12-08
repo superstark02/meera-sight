@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import clinic from "../Images/About/clinic.webp"
+import "./About.css"
 
 const buttons = [
     {
@@ -29,13 +30,13 @@ export class About extends Component {
         return (
             <div>
                 <div className="wrap" >
-                    <img alt="cover" src={clinic} />
+                    <img alt="cover" className="cover" src={clinic} />
                 </div>
-                <div className="wrap" style={{margin:"20px 0px",justifyContent:"space-evenly"}} >
+                <div className="button-container" >
                     {
                         buttons.map(item => {
                             return (
-                                <a href={item.link} >
+                                <a href={item.link} style={{margin:"10px 0px"}} >
                                     <button className="secondary-button" >
                                         {item.name}
                                     </button>

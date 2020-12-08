@@ -17,12 +17,14 @@ import Founders from './Pages/About/Founders';
 import ServicesDetails from './Pages/Services/ServicesDetails';
 import BookService from './Pages/Services/BookService';
 import BlogDisplay from './Pages/Blogs/BlogDisplay';
-import MappBar from './Components/MappBar';
+import MappBar from './Components/Mobile/MappBar';
 
 function App() {
   return (
     <div className="App">
-      <AppBar />
+      <div className="desktop" >
+        <AppBar />
+      </div>
       <div className="mobile" >
         <MappBar />
       </div>
