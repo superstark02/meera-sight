@@ -12,11 +12,11 @@ export class Services extends Component {
                         Our Services
                     </u>
                 </div>
-                <div style={{ display: "flex", flexWrap: "wrap" }} >
+                <div style={{ display: "flex", flexWrap: "wrap" }} className="wrap" >
                     {
-                        services.map(item => {
+                        services.map((item,index) => {
                             return (
-                                <Link to={"/services" + item.link} >
+                                <Link to={"/services/" + index} >
                                     <div style={{ margin: "10px" }} >
                                         <div>
                                             <a href={item.link} >

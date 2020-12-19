@@ -1,0 +1,12 @@
+.overview{
+    width: 950px;
+    font-size: 18px;
+    color: #6c2368;
+}
+
+@media only screen and (max-width: 1024px) {
+    .overview{
+        width: 90%;
+        font-size: 15px;
+    }
+}

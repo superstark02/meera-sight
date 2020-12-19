@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import img from '../../Images/About/clinic.webp'
+import "../../CSS/Pages/About/Overview.css"
 
 export class Overview extends Component {
     render() {
@@ -12,11 +13,11 @@ export class Overview extends Component {
                 </div>
 
                 <div className="wrap" >
-                    <img alt="bg" src={img} />
+                    <img alt="bg" src={img} width="80%" />
                 </div>
 
                 <div className="wrap" >
-                    <div style={{ width: "900px",fontSize:"18px",color:"#6c2368" }} >
+                    <div className="overview" >
                         <p class="font_8">Our utmost emphasis is on Quality and patient safety while providing best treatment through the highest qualified team which came together as a part of this venture at&nbsp;<b>Meerasight</b>.</p>
                         <p class="font_8"><span class="wixGuard"></span></p>
                         <p class="font_8">Our new center has been designed keeping patient satisfaction and comfort in mind. We have the latest diagnostic equipments with cutting edge technology to provide class leading eye care. It has the most advanced modular Operation Theatre which has been designed as per guidelines and recommendations laid by NABH which is pushing the boundaries of highest standards in healthcare. Apart from patient satisfaction, for patient safety we have an operation theatre fitted with Laminar Air Flow which makes us class apart. The Air Handling Unit eliminates the danger of infection during surgery to a large extent by filtering out harmful germs from the air.</p>
